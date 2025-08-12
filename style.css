@@ -2,10 +2,27 @@ main{
     display: flex;
 }
 
+@media (max-width: 768px) {
+      .menu {
+        width: 100%; /* Ocupa toda a largura em telas menores */
+      }
+    }
+
 body{
     background-image: url(images/background-fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+header, footer {
+    text-align: center;
+    
 }
 
 .MVerde{
