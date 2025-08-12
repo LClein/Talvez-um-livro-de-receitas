@@ -1,0 +1,50 @@
+
+ body{
+    background-image: url("images/Lamem-fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+ }
+ 
+ .Conteudo{ 
+    border-radius: 5px;
+    margin: 25px;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(119,136,153, 0.65); /* Green */
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: #333 0px 0px 10px;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px;
+    align-items: center;
+    overflow: auto;;
+ }
+
+ button{
+    border-radius: 6px;
+    float: left;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: #F0F8FF;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.8s ease;
+    
+}

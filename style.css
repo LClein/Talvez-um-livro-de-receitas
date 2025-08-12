@@ -1,0 +1,71 @@
+main{
+    display: flex;
+}
+
+body{
+    background-image: url(images/background-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MVerde{
+    background-color: rgba(46,139,87, 0.65); /* Green */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: #333 0px 0px 10px;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    width: 30%;
+    height: auto;
+    
+}
+
+button{
+    border-radius: 6px;
+    float: right
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: #F0F8FF;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.8s ease;
+}
+
+.Lamem{
+    background-color: rgba(46,139,87, 0.65); /* Green */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: #333 0px 0px 10px;
+    padding: 10px 20px 20px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
+    width: 30%;
+    height: auto;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
